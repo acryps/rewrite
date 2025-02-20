@@ -1,7 +1,7 @@
 {
 	"name": "@acryps/rewrite",
 	"description": "Convert JSX to standard HTML elements",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"type": "module",
 	"main": ".built/index.js",
 	"typings": ".built/index.d.ts",
