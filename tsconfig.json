@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "esnext",
+		"outDir": "../.built",
+		"declaration": true,
+		"moduleResolution": "node",
+		"lib": [
+			"esnext",
+			"dom"
+		]
+	}
+}
