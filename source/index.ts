@@ -61,7 +61,7 @@ export class Rewrite {
 	activateStyleRewrite() {
 		const rewriter = this;
 
-		StyleGroup.prototype.wrapSelector = selector => {
+		StyleGroup.wrapSelector = selector => {
 			const modified = selector.replace(/(?<![:"[-])\b[a-z0-9][a-z0-9-]*\b/g, match => {
 				if (rewriter.nativeElements.includes(match)) {
 					return match;
