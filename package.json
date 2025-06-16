@@ -14,8 +14,8 @@
 	"devDependencies": {
 		"typescript": "^5.3.2"
 	},
-	"dependencies": {
-		"@acryps/page": "^1.7.3",
-		"@acryps/style": "^0.18.0"
+	"peerDependencies": {
+		"@acryps/style": ">=0.17.0",
+		"@acryps/page": ">=1.7.3"
 	}
 }
